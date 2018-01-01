@@ -1,0 +1,129 @@
+/* Class = "UILabel"; text = "Category"; ObjectID = "1oa-qz-HIv"; */
+"1oa-qz-HIv.text" = "Catégorie";
+
+/* Class = "UILabel"; text = "DD"; ObjectID = "1wa-xv-x2D"; */
+"1wa-xv-x2D.text" = "JJ";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "3B0-ih-RER"; */
+"3B0-ih-RER.text" = "Description";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "3dA-j4-uL4"; */
+"3dA-j4-uL4.title" = "Retour";
+
+/* Class = "UILabel"; text = "Lucid"; ObjectID = "3fJ-iA-pq0"; */
+"3fJ-iA-pq0.text" = "Lucide";
+
+/* Class = "UILabel"; text = "✓"; ObjectID = "4TP-dD-Brb"; */
+"4TP-dD-Brb.text" = "✓";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "5HD-fe-fTG"; */
+"5HD-fe-fTG.normalTitle" = "Supprimer";
+
+/* Class = "UITableViewSection"; headerTitle = "Description"; ObjectID = "5h6-WQ-IAb"; */
+"5h6-WQ-IAb.headerTitle" = "Description";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "7O6-WZ-sqa"; */
+"7O6-WZ-sqa.title" = "Retour";
+
+/* Class = "UILabel"; text = "😀"; ObjectID = "7zP-ho-OQ1"; */
+"7zP-ho-OQ1.text" = "😀";
+
+/* Class = "UINavigationItem"; title = "New Category"; ObjectID = "ACg-KH-Bhd"; */
+"ACg-KH-Bhd.title" = "Nouvelle catégorie";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "BMj-9L-jHm"; */
+"BMj-9L-jHm.text" = "Date";
+
+/* Class = "UITableViewSection"; headerTitle = "Dream Title"; ObjectID = "Cxo-08-3kd"; */
+"Cxo-08-3kd.headerTitle" = "Titre de rêve";
+
+/* Class = "UINavigationItem"; title = "Select Category"; ObjectID = "E1N-iR-TTe"; */
+"E1N-iR-TTe.title" = "Choisir une catégorie";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "Eds-UI-Ga8"; */
+"Eds-UI-Ga8.normalTitle" = "Supprimer";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "ErD-zF-UHO"; */
+"ErD-zF-UHO.normalTitle" = "Enregistrer";
+
+/* Class = "UITableViewSection"; headerTitle = "Details"; ObjectID = "HfF-hF-Fv8"; */
+"HfF-hF-Fv8.headerTitle" = "Détails";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Inb-Ug-AJp"; */
+"Inb-Ug-AJp.text" = "Titre";
+
+/* Class = "UILabel"; text = "Mood"; ObjectID = "JxE-7c-lA7"; */
+"JxE-7c-lA7.text" = "Humeur";
+
+/* Class = "UINavigationItem"; title = "New Dream"; ObjectID = "L7Z-OP-GaC"; */
+"L7Z-OP-GaC.title" = "Nouveau rêve";
+
+/* Class = "UISegmentedControl"; MpI-cV-gnX.segmentTitles[0] = "☹️"; ObjectID = "MpI-cV-gnX"; */
+"MpI-cV-gnX.segmentTitles[0]" = "☹️";
+
+/* Class = "UISegmentedControl"; MpI-cV-gnX.segmentTitles[1] = "😐"; ObjectID = "MpI-cV-gnX"; */
+"MpI-cV-gnX.segmentTitles[1]" = "😐";
+
+/* Class = "UISegmentedControl"; MpI-cV-gnX.segmentTitles[2] = "😀"; ObjectID = "MpI-cV-gnX"; */
+"MpI-cV-gnX.segmentTitles[2]" = "😀";
+
+/* Class = "UILabel"; text = "Not Set"; ObjectID = "OVa-gv-FrG"; */
+"OVa-gv-FrG.text" = "Non sélectionné";
+
+/* Class = "UIButton"; normalTitle = "Play"; ObjectID = "Uoi-po-ogM"; */
+"Uoi-po-ogM.normalTitle" = "Jouer";
+
+/* Class = "UILabel"; text = "Lucid"; ObjectID = "VgE-W1-9g4"; */
+"VgE-W1-9g4.text" = "Lucide";
+
+/* Class = "UIButton"; normalTitle = "▶️"; ObjectID = "XWy-ZL-yeK"; */
+"XWy-ZL-yeK.normalTitle" = "▶️";
+
+/* Class = "UILabel"; text = "10/4/17, 10:04 AM"; ObjectID = "XYu-EF-Nex"; */
+"XYu-EF-Nex.text" = "4.10.17, 10:04";
+
+/* Class = "UILabel"; text = "MMM"; ObjectID = "YKy-d7-K3U"; */
+"YKy-d7-K3U.text" = "MMM";
+
+/* Class = "UILabel"; text = "Record"; ObjectID = "bve-FA-7Nh"; */
+"bve-FA-7Nh.text" = "Enregistrer";
+
+/* Class = "UILabel"; text = "Mood"; ObjectID = "dQ2-qd-avc"; */
+"dQ2-qd-avc.text" = "Humeur";
+
+/* Class = "UILabel"; text = "Voice Memo"; ObjectID = "dnk-PT-4jM"; */
+"dnk-PT-4jM.text" = "Mémo vocal";
+
+/* Class = "UILabel"; text = "YYYY"; ObjectID = "e1c-HJ-y6x"; */
+"e1c-HJ-y6x.text" = "AAAA";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "eFt-zL-qFU"; */
+"eFt-zL-qFU.text" = "Catégorie";
+
+/* Class = "UILabel"; text = "😀"; ObjectID = "i4a-AI-0ft"; */
+"i4a-AI-0ft.text" = "😀";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "joK-0I-VgA"; */
+"joK-0I-VgA.text" = "Description";
+
+/* Class = "UILabel"; text = "Date of Dream"; ObjectID = "pX2-uc-R9H"; */
+"pX2-uc-R9H.text" = "Date du rêve";
+
+/* Class = "UILabel"; text = "0 sec"; ObjectID = "pbn-To-YH2"; */
+"pbn-To-YH2.text" = "0 sec";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "rMK-Mp-beZ"; */
+"rMK-Mp-beZ.text" = "Catégorie";
+
+/* Class = "UINavigationItem"; title = "My Dreams"; ObjectID = "t0r-Rk-uIz"; */
+"t0r-Rk-uIz.title" = "Mes rêves";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "tKu-wf-pym"; */
+"tKu-wf-pym.text" = "Titre";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "tdg-RN-Koc"; */
+"tdg-RN-Koc.title" = "Retour";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "wkA-4g-8Oz"; */
+"wkA-4g-8Oz.text" = "Catégorie";
+

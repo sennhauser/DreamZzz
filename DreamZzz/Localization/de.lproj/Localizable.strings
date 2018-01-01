@@ -1,0 +1,120 @@
+/* No comment provided by engineer. */
+"Action" = "Action";
+
+/* No comment provided by engineer. */
+"All" = "Alle";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete this category?" = "Diese Kategorie wirklich löschen?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete this dream?" = "Diesen Traum wirklich löschen?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete this voice memo?" = "Diese Sprach Notiz wirklich löschen?";
+
+/* No comment provided by engineer. */
+"Cancel" = "Abbrechen";
+
+/* No comment provided by engineer. */
+"Category" = "Kategorie";
+
+/* No comment provided by engineer. */
+"Childhood" = "Kindheit";
+
+/* No comment provided by engineer. */
+"Could not dequeue CategoryCell." = "Konnte keine CategoryCell freimachen.";
+
+/* No comment provided by engineer. */
+"Could not dequeue DreamCell." = "Konnte keine DreamCell freimachen.";
+
+/* No comment provided by engineer. */
+"Delete Category" = "Kategorie löschen";
+
+/* No comment provided by engineer. */
+"Delete Dream" = "Traum löschen";
+
+/* No comment provided by engineer. */
+"Delete Voice Memo" = "Sprach Notiz löschen";
+
+/* No comment provided by engineer. */
+"Dream Date" = "Traum Datum";
+
+/* No comment provided by engineer. */
+"Edit Category" = "Kategorie bearbeiten";
+
+/* No comment provided by engineer. */
+"Edit Dream" = "Traum bearbeiten";
+
+/* No comment provided by engineer. */
+"Family" = "Familie";
+
+/* No comment provided by engineer. */
+"Fantasy" = "Fantasie";
+
+/* No comment provided by engineer. */
+"Fun" = "Spass";
+
+/* No comment provided by engineer. */
+"Health" = "Gesundheit";
+
+/* No comment provided by engineer. */
+"Listen" = "Abspielen";
+
+/* No comment provided by engineer. */
+"Lucid" = "Klartraum";
+
+/* No comment provided by engineer. */
+"Microphone Access Disabled" = "Mikrofon Zugriff verweigert";
+
+/* No comment provided by engineer. */
+"Mood" = "Stimmung";
+
+/* No comment provided by engineer. */
+"New Dream" = "Neuer Traum";
+
+/* No comment provided by engineer. */
+"Nightmare" = "Albtraum";
+
+/* No comment provided by engineer. */
+"Non-Lucid" = "Kein Klartraum";
+
+/* No comment provided by engineer. */
+"Not Set" = "Nicht gewählt";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"Overwrite Voice Memo" = "Sprach Notiz überschreiben";
+
+/* No comment provided by engineer. */
+"Record" = "Aufnehmen";
+
+/* No comment provided by engineer. */
+"Relationship" = "Beziehung";
+
+/* No comment provided by engineer. */
+"Romance" = "Romantisch";
+
+/* No comment provided by engineer. */
+"Search Dreams" = "Träume durchsuchen";
+
+/* No comment provided by engineer. */
+"Shared from DreamZzz - my personal dream journal." = "Geteilt von DreamZzz - meinem persönlichen Traumtagebuch.";
+
+/* No comment provided by engineer. */
+"Spiritual" = "Spirituell";
+
+/* No comment provided by engineer. */
+"This will overwrite the current voice memo. Are you sure you want to re-record it?" = "Dies wird die bestehende Sprach Notiz überschreiben.";
+
+/* No comment provided by engineer. */
+"To record voice memos, please allow access to the microphone for DreamZzz in Settings." = "Um Sprachnotizen aufzunehmen, bitte Zugriff auf das Mikrofon für DreamZzz in Einstellungen gewähren.";
+
+/* No comment provided by engineer. */
+"Violence" = "Gewalt";
+
+/* No comment provided by engineer. */
+"Work" = "Arbeit";
+
