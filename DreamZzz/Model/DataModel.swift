@@ -13,7 +13,6 @@ class DataModel {
     
     init() {
         loadDreams()
-        print(documentsDirectory())
     }
     
     func documentsDirectory() -> URL {

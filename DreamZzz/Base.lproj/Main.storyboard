@@ -29,10 +29,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xjN-si-QKu">
-                                            <rect key="frame" x="8" y="5" width="299" height="71.5"/>
+                                            <rect key="frame" x="16" y="5" width="283" height="71.5"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Inb-Ug-AJp">
-                                                    <rect key="frame" x="8" y="8" width="275" height="22"/>
+                                                    <rect key="frame" x="0.0" y="8" width="283" height="22"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="22" id="QTr-D7-ipg"/>
                                                     </constraints>
@@ -41,7 +41,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joK-0I-VgA">
-                                                    <rect key="frame" x="8" y="30" width="275" height="34"/>
+                                                    <rect key="frame" x="0.0" y="30" width="283" height="34"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="34" id="Hom-aT-4hk"/>
                                                     </constraints>
@@ -52,12 +52,12 @@
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="joK-0I-VgA" secondAttribute="trailing" constant="16" id="IdC-ei-8Gm"/>
-                                                <constraint firstItem="joK-0I-VgA" firstAttribute="leading" secondItem="xjN-si-QKu" secondAttribute="leading" constant="8" id="MA5-Vp-Ush"/>
-                                                <constraint firstItem="Inb-Ug-AJp" firstAttribute="leading" secondItem="xjN-si-QKu" secondAttribute="leading" constant="8" id="NJ8-09-hNK"/>
+                                                <constraint firstAttribute="trailing" secondItem="joK-0I-VgA" secondAttribute="trailing" id="IdC-ei-8Gm"/>
+                                                <constraint firstItem="joK-0I-VgA" firstAttribute="leading" secondItem="xjN-si-QKu" secondAttribute="leading" id="MA5-Vp-Ush"/>
+                                                <constraint firstItem="Inb-Ug-AJp" firstAttribute="leading" secondItem="xjN-si-QKu" secondAttribute="leading" id="NJ8-09-hNK"/>
                                                 <constraint firstItem="joK-0I-VgA" firstAttribute="top" secondItem="Inb-Ug-AJp" secondAttribute="bottom" id="TOp-v9-Iax"/>
                                                 <constraint firstItem="Inb-Ug-AJp" firstAttribute="top" secondItem="xjN-si-QKu" secondAttribute="top" constant="8" id="fVZ-7n-1Ve"/>
-                                                <constraint firstAttribute="trailing" secondItem="Inb-Ug-AJp" secondAttribute="trailing" constant="16" id="ibt-Gc-ETr"/>
+                                                <constraint firstAttribute="trailing" secondItem="Inb-Ug-AJp" secondAttribute="trailing" id="ibt-Gc-ETr"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B7i-mH-sba">
@@ -96,8 +96,8 @@
                                         <constraint firstItem="xjN-si-QKu" firstAttribute="top" secondItem="vik-2P-3x1" secondAttribute="top" constant="5" id="SyM-os-Bdn"/>
                                         <constraint firstAttribute="trailing" secondItem="B7i-mH-sba" secondAttribute="trailing" constant="8" id="aep-3b-rfR"/>
                                         <constraint firstAttribute="bottom" secondItem="xjN-si-QKu" secondAttribute="bottom" constant="5" id="c7q-oE-Qth"/>
-                                        <constraint firstItem="xjN-si-QKu" firstAttribute="leading" secondItem="vik-2P-3x1" secondAttribute="leading" constant="8" id="lHK-Xf-13W"/>
-                                        <constraint firstItem="B7i-mH-sba" firstAttribute="leading" secondItem="xjN-si-QKu" secondAttribute="trailing" id="weK-ev-zZB"/>
+                                        <constraint firstItem="xjN-si-QKu" firstAttribute="leading" secondItem="vik-2P-3x1" secondAttribute="leading" constant="16" id="lHK-Xf-13W"/>
+                                        <constraint firstItem="B7i-mH-sba" firstAttribute="leading" secondItem="xjN-si-QKu" secondAttribute="trailing" constant="8" id="weK-ev-zZB"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
