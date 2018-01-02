@@ -12,8 +12,8 @@ import AVFoundation
 struct AudioManager {
     
     static var settings: [String:Any] = [AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
-                                  AVSampleRateKey: 44100.0,
-                                  AVNumberOfChannelsKey: 2]
+                                         AVSampleRateKey: 44100.0,
+                                         AVNumberOfChannelsKey: 2]
     
     static func configureSession() {
         let session = AVAudioSession.sharedInstance()

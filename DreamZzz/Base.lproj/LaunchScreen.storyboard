@@ -6,6 +6,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,35 +18,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="t6m-iU-fSx">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qO7-HE-NJN">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DreamZzz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGw-ok-uUW">
-                                <rect key="frame" x="135.5" y="584" width="164" height="43"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="80K-Lv-EPX">
+                                <rect key="frame" x="92" y="294" width="190" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DreamZzz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGw-ok-uUW">
+                                        <rect key="frame" x="0.0" y="0.0" width="190" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
+                                        <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dream Journal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztl-Ak-M5v">
+                                        <rect key="frame" x="1.5" y="44" width="187.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="f99-wv-muw"/>
+                                    <constraint firstAttribute="height" constant="80" id="88H-R0-pLR"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="36"/>
-                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.031372549020000001" green="0.30588235289999999" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="t6m-iU-fSx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9dr-SS-Ttf"/>
-                            <constraint firstItem="qO7-HE-NJN" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9sL-po-zWH"/>
-                            <constraint firstItem="qO7-HE-NJN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MIz-Zu-5aB"/>
-                            <constraint firstItem="qO7-HE-NJN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="V2w-6j-Cjt"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BGw-ok-uUW" secondAttribute="bottom" constant="40" id="Xoe-ej-hkA"/>
-                            <constraint firstItem="t6m-iU-fSx" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dEO-lm-6Gi"/>
-                            <constraint firstItem="BGw-ok-uUW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="30" id="dGH-Qy-GwY"/>
-                            <constraint firstItem="t6m-iU-fSx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kGe-l5-TWm"/>
-                            <constraint firstItem="t6m-iU-fSx" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="snL-a5-T0x"/>
-                            <constraint firstItem="qO7-HE-NJN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xrJ-ET-1t0"/>
+                            <constraint firstItem="80K-Lv-EPX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9HO-XY-f3J"/>
+                            <constraint firstItem="80K-Lv-EPX" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XEI-tD-2ZJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -55,7 +52,4 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="LaunchBackground" width="1536" height="1536"/>
-    </resources>
 </document>
