@@ -262,7 +262,6 @@ class EditDreamViewController: UITableViewController {
                           mood: mood,
                           categoryId: categoryId,
                           voiceMemoName: voiceMemo)
-            
         } else if segue.identifier == "SelectCategory" {
             guard let destination = segue.destination as? CategoryListViewController else { return }
             

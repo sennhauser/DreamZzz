@@ -23,12 +23,14 @@ class DreamListViewController: UITableViewController, UISearchBarDelegate {
                                                         NSLocalizedString("Lucid", comment: ""),
                                                         NSLocalizedString("Non-Lucid", comment: "")]
         searchController.searchBar.delegate = self
-        
+                
         if let data = UserDefaults.standard.value(forKey:"temporaryDream") as? Data {
             if let dream = try? PropertyListDecoder().decode(Dream.self, from: data) {
                 performSegue(withIdentifier: "EditDream", sender: dream)
                 UserDefaults.standard.set(nil, forKey: "temporaryDream")
             }
+        } else {
+            UserDefaults.standard.set(-1, forKey: "dreamIndex")
         }
     }
     

@@ -29,10 +29,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xjN-si-QKu">
-                                            <rect key="frame" x="12" y="5" width="295" height="71.5"/>
+                                            <rect key="frame" x="8" y="5" width="299" height="71.5"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Inb-Ug-AJp">
-                                                    <rect key="frame" x="8" y="8" width="271" height="22"/>
+                                                    <rect key="frame" x="8" y="8" width="275" height="22"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="22" id="QTr-D7-ipg"/>
                                                     </constraints>
@@ -41,7 +41,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joK-0I-VgA">
-                                                    <rect key="frame" x="8" y="30" width="271" height="34"/>
+                                                    <rect key="frame" x="8" y="30" width="275" height="34"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="34" id="Hom-aT-4hk"/>
                                                     </constraints>
@@ -96,7 +96,7 @@
                                         <constraint firstItem="xjN-si-QKu" firstAttribute="top" secondItem="vik-2P-3x1" secondAttribute="top" constant="5" id="SyM-os-Bdn"/>
                                         <constraint firstAttribute="trailing" secondItem="B7i-mH-sba" secondAttribute="trailing" constant="8" id="aep-3b-rfR"/>
                                         <constraint firstAttribute="bottom" secondItem="xjN-si-QKu" secondAttribute="bottom" constant="5" id="c7q-oE-Qth"/>
-                                        <constraint firstItem="xjN-si-QKu" firstAttribute="leading" secondItem="vik-2P-3x1" secondAttribute="leading" constant="12" id="lHK-Xf-13W"/>
+                                        <constraint firstItem="xjN-si-QKu" firstAttribute="leading" secondItem="vik-2P-3x1" secondAttribute="leading" constant="8" id="lHK-Xf-13W"/>
                                         <constraint firstItem="B7i-mH-sba" firstAttribute="leading" secondItem="xjN-si-QKu" secondAttribute="trailing" id="weK-ev-zZB"/>
                                     </constraints>
                                 </tableViewCellContentView>
