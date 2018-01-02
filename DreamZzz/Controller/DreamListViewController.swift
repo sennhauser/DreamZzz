@@ -201,6 +201,7 @@ class DreamListViewController: UITableViewController, UISearchBarDelegate {
                 let editDreamViewController = navigationViewController.viewControllers.last as? EditDreamViewController,
                 let dream = sender as? Dream {
                 editDreamViewController.dream = dream
+                editDreamViewController.isDeleteButtonHidden = true
             }
         }
     }

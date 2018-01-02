@@ -27,6 +27,7 @@ class EditDreamViewController: UITableViewController {
     var voiceMemoName: String?
     var deleteDream = false
     
+    var isDeleteButtonHidden = false
     var isDreamDatePickerHidden = true
     let dreamTitleCell = IndexPath(row: 0, section: 0)
     let descriptionCell = IndexPath(row: 0, section: 1)
@@ -62,7 +63,7 @@ class EditDreamViewController: UITableViewController {
     func updateUI() {
         if let selectedDream = dream {
             navigationItem.title = NSLocalizedString("Edit Dream", comment: "")
-            deleteButton.isHidden = false
+            deleteButton.isHidden = isDeleteButtonHidden
             titleTextField.text = selectedDream.title
             dreamDatePicker.date = selectedDream.date
             descriptionTextField.text = selectedDream.description
@@ -86,9 +87,9 @@ class EditDreamViewController: UITableViewController {
                 categoryLabel.text = NSLocalizedString("Not Set", comment: "")
             }
             
-            if UserDefaults.standard.integer(forKey: "dreamIndex") == -1 {
-                deleteButton.isHidden = true
-            }
+//            if needToHideDeleteButton {
+//                deleteButton.isHidden = true
+//            }
         } else {
             dreamDatePicker.date = Date()
         }

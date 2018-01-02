@@ -159,6 +159,7 @@ class ShowDreamViewController: UIViewController, AVAudioPlayerDelegate {
             
             if let dream = dream {
                 editDreamViewController.dream = dream
+                editDreamViewController.isDeleteButtonHidden = false
             }
         }
     }
