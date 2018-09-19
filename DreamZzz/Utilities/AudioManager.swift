@@ -17,7 +17,7 @@ struct AudioManager {
     
     static func configureSession() {
         let session = AVAudioSession.sharedInstance()
-        try? session.setCategory(convertFromAVAudioSessionCategory(AVAudioSession.Category.playAndRecord))
+        try? session.setCategory(.playAndRecord, mode: .default, options: [.defaultToSpeaker, .duckOthers])
         try? session.overrideOutputAudioPort(.speaker)
         try? session.setActive(true)
     }
