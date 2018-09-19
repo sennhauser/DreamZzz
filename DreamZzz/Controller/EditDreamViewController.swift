@@ -46,7 +46,7 @@ class EditDreamViewController: UITableViewController {
         
         tableView.rowHeight = 44.0
         
-        let moodAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+        let moodAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
         moodSegementedController.setTitleTextAttributes(moodAttributes, for: .selected)
         moodSegementedController.tintColor = UIColor.gray
         
@@ -200,10 +200,10 @@ class EditDreamViewController: UITableViewController {
         
         if indexPath == voiceMemoCell {
             let session = AVAudioSession.sharedInstance()
-            if session.recordPermission() == .undetermined {
+            if session.recordPermission == .undetermined {
                 session.requestRecordPermission({ (granted: Bool) -> Void in })
                 return nil
-            } else if session.recordPermission() == .denied {
+            } else if session.recordPermission == .denied {
                 showMicrophoneAccessDeniedAlert()
                 return nil
             }

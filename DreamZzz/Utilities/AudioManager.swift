@@ -17,7 +17,7 @@ struct AudioManager {
     
     static func configureSession() {
         let session = AVAudioSession.sharedInstance()
-        try? session.setCategory(AVAudioSessionCategoryPlayAndRecord)
+        try? session.setCategory(convertFromAVAudioSessionCategory(AVAudioSession.Category.playAndRecord))
         try? session.overrideOutputAudioPort(.speaker)
         try? session.setActive(true)
     }
@@ -85,4 +85,9 @@ struct AudioManager {
         return audioPlayer
     }
     
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromAVAudioSessionCategory(_ input: AVAudioSession.Category) -> String {
+	return input.rawValue
 }

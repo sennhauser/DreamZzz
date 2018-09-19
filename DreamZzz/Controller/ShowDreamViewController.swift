@@ -50,7 +50,7 @@ class ShowDreamViewController: UIViewController, AVAudioPlayerDelegate {
                 playVoiceMailButton.isHidden = true
             }
             
-            if dream.mood != UISegmentedControlNoSegment {
+            if dream.mood != UISegmentedControl.noSegment {
                 moodLabel.text = moods[dream.mood]
             } else {
                 moodStackView.isHidden = true

@@ -142,7 +142,7 @@ class DreamListViewController: UITableViewController, UISearchBarDelegate {
         return true
     }
     
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             if let voiceMemoName = dataModel.dreams[indexPath.row].voiceMemoName {
                 AudioManager.deleteVoiceMemo(withName: voiceMemoName)

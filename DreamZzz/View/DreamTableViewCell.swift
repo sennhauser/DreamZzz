@@ -20,8 +20,8 @@ class DreamTableViewCell: UITableViewCell {
     let appTintColor = UIColor(red: -0.0127815, green: 0.37506, blue: 0.366638, alpha: 1)
     
     func configure(for dream: Dream) {
-        let dateTextAttributes = [NSAttributedStringKey.foregroundColor: appTintColor]
-        let descriptionTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.gray]
+        let dateTextAttributes = [NSAttributedString.Key.foregroundColor: appTintColor]
+        let descriptionTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.gray]
         
         let attributedDescriptionString = NSMutableAttributedString(string: DateTimeFormatter.dreamDateShort.string(from: dream.date), attributes: dateTextAttributes)
         
@@ -32,7 +32,7 @@ class DreamTableViewCell: UITableViewCell {
         titleLabel.text = dream.title
         descriptionLabel.attributedText = attributedDescriptionString
         
-        if dream.mood != UISegmentedControlNoSegment {
+        if dream.mood != UISegmentedControl.noSegment {
             moodLabel.text = moods[dream.mood]
         } else {
             moodLabel.text = "-"
